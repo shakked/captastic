@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63136CB11B6D58D8003A6665 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CA41B6D58D8003A6665 /* AbstractActionSheetPicker.m */; };
+		63136CB21B6D58D8003A6665 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CA61B6D58D8003A6665 /* ActionSheetCustomPicker.m */; };
+		63136CB31B6D58D8003A6665 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CA91B6D58D8003A6665 /* ActionSheetDatePicker.m */; };
+		63136CB41B6D58D8003A6665 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CAB1B6D58D8003A6665 /* ActionSheetLocalePicker.m */; };
+		63136CB51B6D58D8003A6665 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CAE1B6D58D8003A6665 /* ActionSheetStringPicker.m */; };
+		63136CB61B6D58D8003A6665 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 63136CB01B6D58D8003A6665 /* SWActionSheet.m */; };
+		63136CBF1B6D598A003A6665 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63136CBE1B6D598A003A6665 /* Fonts.swift */; };
 		63D206E41B6813C200568E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D206E31B6813C200568E17 /* AppDelegate.swift */; };
-		63D206E61B6813C200568E17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D206E51B6813C200568E17 /* ViewController.swift */; };
-		63D206E91B6813C200568E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D206E71B6813C200568E17 /* Main.storyboard */; };
 		63D206EB1B6813C200568E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D206EA1B6813C200568E17 /* Images.xcassets */; };
 		63D206EE1B6813C200568E17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D206EC1B6813C200568E17 /* LaunchScreen.xib */; };
 		63D206FA1B6813C200568E17 /* Funny_Pic_MakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D206F91B6813C200568E17 /* Funny_Pic_MakerTests.swift */; };
+		63D207051B68140500568E17 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D207031B68140500568E17 /* WelcomeViewController.swift */; };
+		63D207061B68140500568E17 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D207041B68140500568E17 /* WelcomeViewController.xib */; };
+		63D207091B68142700568E17 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D207071B68142600568E17 /* PhotoEditorViewController.swift */; };
+		63D2070A1B68142700568E17 /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D207081B68142600568E17 /* PhotoEditorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63136CA31B6D58D8003A6665 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		63136CA41B6D58D8003A6665 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		63136CA51B6D58D8003A6665 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		63136CA61B6D58D8003A6665 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		63136CA71B6D58D8003A6665 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		63136CA81B6D58D8003A6665 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		63136CA91B6D58D8003A6665 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		63136CAA1B6D58D8003A6665 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		63136CAB1B6D58D8003A6665 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		63136CAC1B6D58D8003A6665 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		63136CAD1B6D58D8003A6665 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		63136CAE1B6D58D8003A6665 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		63136CAF1B6D58D8003A6665 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		63136CB01B6D58D8003A6665 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		63136CBA1B6D5902003A6665 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		63136CBE1B6D598A003A6665 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = ../Fonts.swift; sourceTree = "<group>"; };
 		63D206DE1B6813C200568E17 /* Funny Pic Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Pic Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D206E21B6813C200568E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D206E31B6813C200568E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63D206E51B6813C200568E17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63D206E81B6813C200568E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D206EA1B6813C200568E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63D206ED1B6813C200568E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63D206F31B6813C200568E17 /* Funny Pic MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funny Pic MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D206F81B6813C200568E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D206F91B6813C200568E17 /* Funny_Pic_MakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funny_Pic_MakerTests.swift; sourceTree = "<group>"; };
+		63D207031B68140500568E17 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		63D207041B68140500568E17 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		63D207071B68142600568E17 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		63D207081B68142600568E17 /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63136CA21B6D58D8003A6665 /* ActionSheets */ = {
+			isa = PBXGroup;
+			children = (
+				63136CA31B6D58D8003A6665 /* AbstractActionSheetPicker.h */,
+				63136CA41B6D58D8003A6665 /* AbstractActionSheetPicker.m */,
+				63136CA51B6D58D8003A6665 /* ActionSheetCustomPicker.h */,
+				63136CA61B6D58D8003A6665 /* ActionSheetCustomPicker.m */,
+				63136CA71B6D58D8003A6665 /* ActionSheetCustomPickerDelegate.h */,
+				63136CA81B6D58D8003A6665 /* ActionSheetDatePicker.h */,
+				63136CA91B6D58D8003A6665 /* ActionSheetDatePicker.m */,
+				63136CAA1B6D58D8003A6665 /* ActionSheetLocalePicker.h */,
+				63136CAB1B6D58D8003A6665 /* ActionSheetLocalePicker.m */,
+				63136CAC1B6D58D8003A6665 /* ActionSheetPicker.h */,
+				63136CAD1B6D58D8003A6665 /* ActionSheetStringPicker.h */,
+				63136CAE1B6D58D8003A6665 /* ActionSheetStringPicker.m */,
+				63136CAF1B6D58D8003A6665 /* SWActionSheet.h */,
+				63136CB01B6D58D8003A6665 /* SWActionSheet.m */,
+			);
+			path = ActionSheets;
+			sourceTree = "<group>";
+		};
 		63D206D51B6813C200568E17 = {
 			isa = PBXGroup;
 			children = (
@@ -78,9 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				63D206E31B6813C200568E17 /* AppDelegate.swift */,
-				63D206E51B6813C200568E17 /* ViewController.swift */,
-				63D206E71B6813C200568E17 /* Main.storyboard */,
+				63D207031B68140500568E17 /* WelcomeViewController.swift */,
+				63D207041B68140500568E17 /* WelcomeViewController.xib */,
+				63D207071B68142600568E17 /* PhotoEditorViewController.swift */,
+				63D207081B68142600568E17 /* PhotoEditorViewController.xib */,
+				63136CBE1B6D598A003A6665 /* Fonts.swift */,
 				63D206EA1B6813C200568E17 /* Images.xcassets */,
+				63136CA21B6D58D8003A6665 /* ActionSheets */,
 				63D206EC1B6813C200568E17 /* LaunchScreen.xib */,
 				63D206E11B6813C200568E17 /* Supporting Files */,
 			);
@@ -90,6 +142,7 @@
 		63D206E11B6813C200568E17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63136CBA1B6D5902003A6665 /* Bridging-Header.h */,
 				63D206E21B6813C200568E17 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D206E91B6813C200568E17 /* Main.storyboard in Resources */,
 				63D206EE1B6813C200568E17 /* LaunchScreen.xib in Resources */,
 				63D206EB1B6813C200568E17 /* Images.xcassets in Resources */,
+				63D2070A1B68142700568E17 /* PhotoEditorViewController.xib in Resources */,
+				63D207061B68140500568E17 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D206E61B6813C200568E17 /* ViewController.swift in Sources */,
 				63D206E41B6813C200568E17 /* AppDelegate.swift in Sources */,
+				63136CB41B6D58D8003A6665 /* ActionSheetLocalePicker.m in Sources */,
+				63136CB11B6D58D8003A6665 /* AbstractActionSheetPicker.m in Sources */,
+				63136CB21B6D58D8003A6665 /* ActionSheetCustomPicker.m in Sources */,
+				63D207051B68140500568E17 /* WelcomeViewController.swift in Sources */,
+				63136CB61B6D58D8003A6665 /* SWActionSheet.m in Sources */,
+				63D207091B68142700568E17 /* PhotoEditorViewController.swift in Sources */,
+				63136CB51B6D58D8003A6665 /* ActionSheetStringPicker.m in Sources */,
+				63136CBF1B6D598A003A6665 /* Fonts.swift in Sources */,
+				63136CB31B6D58D8003A6665 /* ActionSheetDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +298,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63D206E71B6813C200568E17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63D206E81B6813C200568E17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63D206EC1B6813C200568E17 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +397,7 @@
 				INFOPLIST_FILE = "Funny Pic Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +408,7 @@
 				INFOPLIST_FILE = "Funny Pic Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +465,7 @@
 				63D206FF1B6813C200568E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D207001B6813C200568E17 /* Build configuration list for PBXNativeTarget "Funny Pic MakerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +474,7 @@
 				63D207021B6813C200568E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

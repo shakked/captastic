@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoEditorViewController" customModule="Funny_Pic_Maker" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="y3x-JN-MpZ" id="nFQ-uN-Ro3"/>
+                <outlet property="textView" destination="rjY-iy-bbo" id="xNo-Ga-9Um"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y3x-JN-MpZ">
+                    <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="y3x-JN-MpZ" secondAttribute="height" multiplier="1:1" id="6qc-QN-HGC"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xlN-RJ-n1u">
+                    <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" editable="NO" text="Tap here to add text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjY-iy-bbo">
+                            <rect key="frame" x="12" y="12" width="350" height="350"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="350" id="CcC-FX-PVH"/>
+                                <constraint firstAttribute="width" constant="350" id="ORb-cj-jjB"/>
+                            </constraints>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="rjY-iy-bbo" secondAttribute="centerX" id="0dm-qr-dbv"/>
+                        <constraint firstAttribute="centerY" secondItem="rjY-iy-bbo" secondAttribute="centerY" id="oDA-SX-VLD"/>
+                        <constraint firstAttribute="width" secondItem="xlN-RJ-n1u" secondAttribute="height" multiplier="1:1" id="oca-aK-wbd"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVZ-w4-GnB">
+                    <rect key="frame" x="8" y="8" width="39" height="30"/>
+                    <state key="normal" title="Fonts">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="fontsButtonPressed:" destination="-1" eventType="touchUpInside" id="8yM-xo-83o"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="xlN-RJ-n1u" secondAttribute="centerY" id="9Wh-a8-HSN"/>
+                <constraint firstItem="xlN-RJ-n1u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KV2-Yu-814"/>
+                <constraint firstAttribute="centerY" secondItem="y3x-JN-MpZ" secondAttribute="centerY" id="OaW-s7-vH1"/>
+                <constraint firstItem="y3x-JN-MpZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="W15-0S-t8B"/>
+                <constraint firstAttribute="trailing" secondItem="y3x-JN-MpZ" secondAttribute="trailing" id="iuB-mO-aC4"/>
+                <constraint firstAttribute="trailing" secondItem="xlN-RJ-n1u" secondAttribute="trailing" id="jJT-q5-zK1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <action selector="viewTapped:" destination="-1" eventType="touchUpInside" id="eOH-yU-Npr"/>
+            </connections>
+        </view>
+    </objects>
+</document>
